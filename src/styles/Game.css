@@ -15,7 +15,7 @@ body {
 }
 
 #bodyBackground {
-	background-image: url('images/background/GameBackground.gif');
+	background-image: url('/images/background/GameBackground.gif');
 }
 
 @keyframes shake {
