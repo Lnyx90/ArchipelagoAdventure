@@ -608,7 +608,7 @@ function Game() {
 		'Buy Fishing Rod': {
 			duration: 1000,
 			effects: { happiness: +10 },
-			cost: 150,
+			cost: 150000,
 			onStart: () => {
 				showPopup('BuyFishingRod');
 				setExp((prev) => prev + 3);
@@ -619,7 +619,7 @@ function Game() {
 		'Become Cashier': {
 			duration: 2000,
 			effects: { happiness: +10, energy: -3 },
-			earnings: 1000,
+			earnings: 10000,
 			onStart: () => {
 				showPopup('BecomeCashier');
 				setExp((prev) => prev + 9);
@@ -638,7 +638,7 @@ function Game() {
 		'Buy Bucket': {
 			duration: 1000,
 			effects: { happiness: +10, energy: -3 },
-			cost: 100,
+			cost: 100000,
 			unlock: 'Bucket',
 			onStart: () => {
 				showPopup('BuyBucket');
@@ -649,7 +649,7 @@ function Game() {
 		'Buy Bait': {
 			duration: 1000,
 			effects: { happiness: +10, energy: -3 },
-			cost: 50,
+			cost: 50000,
 			unlock: 'Bait',
 			onStart: () => {
 				showPopup('BuyBait');
@@ -660,7 +660,7 @@ function Game() {
 		'Buy Sandcastle Bucket': {
 			duration: 1000,
 			effects: { happiness: +10, energy: -3 },
-			cost: 120,
+			cost: 120000,
 			unlock: 'Sand Bucket',
 			onStart: () => {
 				showPopup('Sandcastle');
@@ -671,7 +671,7 @@ function Game() {
 		'Buy Sandals': {
 			duration: 1000,
 			effects: { happiness: +10, energy: -3 },
-			cost: 200,
+			cost: 200000,
 			onStart: () => {
 				showPopup('Sandal');
 				setExp((prev) => prev + 3);
@@ -691,7 +691,7 @@ function Game() {
 		'Buy Magnifying Glass': {
 			duration: 1000,
 			effects: { happiness: +15, energy: -5 },
-			cost: 250,
+			cost: 250000,
 			onStart: () => {
 				showPopup('BuyMagnifyingGlass');
 				setExp((prev) => prev + 5);
@@ -706,14 +706,14 @@ function Game() {
 				showPopup('Journal');
 				setExp((prev) => prev + 5);
 			},
-			cost: 180,
+			cost: 180000,
 			unlock: 'Journal',
 		},
 
 		'Buy Drink': {
 			duration: 1000,
 			effects: { happiness: +10, energy: -5, hygiene: +5 },
-			cost: 50,
+			cost: 50000,
 			onStart: () => {
 				showPopup('BuyDrink');
 				setExp((prev) => prev + 3);
@@ -724,7 +724,7 @@ function Game() {
 		'Buy a Binocular': {
 			duration: 1000,
 			effects: { happiness: +15, energy: -5 },
-			cost: 350,
+			cost: 350000,
 			onStart: () => {
 				showPopup('BuyBinoculars');
 				setExp((prev) => prev + 5);
@@ -753,6 +753,7 @@ function Game() {
 		'Rent a Boat': {
 			duration: 3000,
 			effects: { happiness: +20, energy: -10 },
+			cost: 150000,
 			onStart: () => {
 				showPopup('Rentboat');
 				setExp((prev) => prev + 12);
