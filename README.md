@@ -13,8 +13,8 @@ Hard	   : 1 heart, only Lake Toba map is unlocked.
 
   Player Status Management 
 Players must maintain four key status bars:
-Hunger 	- Manage by eating food at various locations
-Energy 	- Replenish by sleeping or resting
+Hunger 	  - Manage by eating food at various locations
+Energy 	  - Replenish by sleeping or resting
 Hygiene 	- Maintain through bathing activities
 Happiness - Boost by exploring and completing fun activities
 Life Satisfaction Score	: Calculated from the balance of these four stats, visited areas, completed achievements, leveling exp, and unlocked items.
