@@ -6,9 +6,9 @@ Welcome to Archipelago Adventure, a web-based educational game that invites play
 Character & Difficulty Setup
 - 	Choose 1 of 3 characters and input a name.
 - 	Select a difficulty mode:
-Easy	 : 3 hearts, access to all maps except Mount Bromo.
-Medium	: 2 hearts, Mount Bromo and Borobudur Temple are locked.
-Hard	: 1 heart, only Lake Toba map is unlocked.
+Easy	   : 3 hearts, access to all maps except Mount Bromo.
+Medium	 : 2 hearts, Mount Bromo and Borobudur Temple are locked.
+Hard	   : 1 heart, only Lake Toba map is unlocked.
 - 	Missing Maps can be unlocked through specific activities
 
   Player Status Management 
